@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Text.Encodings.Web;
 
 namespace E2E_App_Demo.Controllers
 {
@@ -11,6 +10,7 @@ namespace E2E_App_Demo.Controllers
         {
             return View();
         }
+
         //
         //GET: /HelloWorld/Welcome/
         public IActionResult Welcome(string name, int numTimes = 1)
